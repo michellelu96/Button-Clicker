@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="buttonclicker.js"></script>
+</head>
+<body>
+    <div id="topnav">
+        <ul class="toptop">
+            <li><h1>Dojonary</h1></li>
+            <li><input type="text" placeholder="search..."></li>
+            <li><button onclick="logout(this)" id="login">Login</button></li>
+        </ul>
+    </div>
+    <div id="background">
+        <div class="boxes">
+            <div class="defbox">
+                <ul class="def">
+                    <li><h1 class="word">ninja</h1></li>
+                    <li><h4 class="wordtype">noun</h4></li>
+                    <li><p class="plural">Plural:<span class="pluralform">ninjas</span></p></li>
+                    <li><button onclick="likes(this)" class="likes">13 likes</button></li>
+                </ul>
+                <p class="defpara">A practictioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a> </p>
+        </div>
+        <div class="defbox">
+            <ul class="def">
+                <li><h1 class="word">ninja</h1></li>
+                <li><h4 class="wordtype">noun</h4></li>
+                <li><p class="plural">Plural:<span class="pluralform">ninjas</span></p></li>
+                <li><button onclick="likes(this)" class="likes">37 likes</button></li>
+            </ul>
+            <p class="defpara">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p> 
+        </div>
+        </div>
+        <div id="side">
+            <div id="add">
+                <p id="hi">Dojonary is defined by <span class="bold">YOU</span></p>
+                <button onclick="remove(this)" class = "adddef">Add Definition</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

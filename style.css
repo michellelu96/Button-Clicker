@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.toptop{
+    list-style-type: none;
+    background-color: darkgrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#login{
+    border: solid black;
+    background-color: blue;
+    color: white;
+    box-shadow: 2px 2px black;
+}
+
+#background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.boxes{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.defbox{
+    background-color: white;
+    border: 3px solid black;
+    height: 175px;
+    width: 481.5994px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.def{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    
+}
+
+
+.wordtype, .pluralform{
+    font-style: italic;
+}
+
+#side{
+    display: flex;
+}
+
+#add{
+    border: 3px solid black;
+    height: 75px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#hi{
+    text-align: center;
+}
+
+.defpara{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+li{
+    margin: 10px 0;
+}
+
+.adddef{
+    margin-top:5px;
+    background-color: rgb(178, 249, 108);
+    color:black;
+    border: 2px solid black;
+    box-shadow: 3px 5px black;
+}
+
+.likes{
+    background-color: yellow;
+    border: 2px solid black;
+    box-shadow: 2px 3px black;
+}
