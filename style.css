@@ -33,6 +33,7 @@
     display:flex;
     justify-content: space-between;
     flex-direction: column;
+
 }
 
 .defbox{
@@ -51,7 +52,6 @@
     display: flex;
     flex-direction: column;
     margin-left: 5px;
-    
 }
 
 
@@ -61,6 +61,7 @@
 
 #side{
     display: flex;
+    position: static;
 }
 
 #add{
@@ -72,6 +73,8 @@
     align-items: center;
     flex-direction: column;
     margin-left: 20px;
+    margin-bottom: 285px;
+    margin-top: 10px;
 }
 
 #hi{
